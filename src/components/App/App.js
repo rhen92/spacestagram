@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import { getPlanetPics } from '../../api-calls'
+import { getPlanetPics } from '../../api-calls';
+import Planets from '../Planets/Planets';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      pictures: [],
+      planetDetails: [],
       error: null
     }
   }
@@ -24,7 +25,7 @@ class App extends Component {
           obj.push(planetInfo);
           return obj;
         }, []);
-        this.setState({pictures: updatedPictures})
+        this.setState({planetDetails: updatedPictures})
       })
       .catch(error => {
         this.setState({error: 'Unable to get Astronomy Pictures of the Day try again later'})
@@ -34,7 +35,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <h1>Hello</h1>
+      <Planets planetDetails={this.state.planetDetails} />
       </div>
     );
   }
