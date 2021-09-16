@@ -1,11 +1,19 @@
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component {
+  constructor() {
+    super();
+
+  }
+
+  render() {
+    return (
+      <div>
       <h1>Hello</h1>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
