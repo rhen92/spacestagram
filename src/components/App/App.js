@@ -19,7 +19,7 @@ class App extends Component {
           let planetInfo = {
             'date': hit.date,
             'explanation': hit.explanation,
-            'title': hit.tile,
+            'title': hit.title,
             'image': hit.url
           }
           obj.push(planetInfo);

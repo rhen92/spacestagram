@@ -16,9 +16,9 @@ const Planets = ({ planetDetails }) => {
   })
 
   return (
-    <>
+    <div className='planets-container'>
       {planets}
-    </>
+    </div>
   )
 }
 
