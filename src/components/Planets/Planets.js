@@ -8,7 +8,7 @@ const Planets = ({ planetDetails }) => {
       <PlanetInfo
         key={index}
         date={planet.date}
-        explanation={planet.explanation}
+        media={planet.media}
         title={planet.title}
         image={planet.image}
       />

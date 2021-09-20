@@ -18,7 +18,7 @@ class App extends Component {
         const updatedPictures = data.reduce((obj, hit) => {
           let planetInfo = {
             'date': hit.date,
-            'explanation': hit.explanation,
+            'media': hit.media_type,
             'title': hit.title,
             'image': hit.url
           }
@@ -34,9 +34,10 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <main>
+      <h1>Spacestagram</h1>
       <Planets planetDetails={this.state.planetDetails} />
-      </div>
+      </main>
     );
   }
 }
