@@ -74,3 +74,9 @@ section {
     height: 0%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  section {
+    height: 90vh
+  }
+}

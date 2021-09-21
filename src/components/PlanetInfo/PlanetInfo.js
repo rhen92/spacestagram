@@ -11,7 +11,7 @@ class PlanetInfo extends Component {
   }
 
   likePicture = () => {
-    this.setState({like: !this.state.like})
+    this.setState({like: !this.state.like});
   }
 
   render() {
