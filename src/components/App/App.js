@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { getPlanetPics } from '../../api-calls';
 import Planets from '../Planets/Planets';
+import Loading from '../Loading/Loading';
 
 class App extends Component {
   constructor() {
@@ -35,6 +36,7 @@ class App extends Component {
   render() {
     return (
       <main className='app'>
+      {!this.state.planetDetails.length && !this.state.error && <Loading />}
       <h1 className='title'>Spacestagram</h1>
       <Planets planetDetails={this.state.planetDetails} />
       </main>
