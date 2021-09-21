@@ -11,3 +11,9 @@ img {
   width: 100%;
   height: 45vh
 }
+
+.heart {
+  font-size: 30px;
+  float: left;
+  margin-top: 10px
+}
