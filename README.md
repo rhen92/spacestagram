@@ -1,5 +1,7 @@
 # Spacestagram
 
+[Deployed Link](https://spacestagram-challenge.surge.sh/)
+
 ## Developer
 <table>
     <tr>
@@ -26,5 +28,3 @@ A React application built using NASA APIs. Site features astronomy pictures of t
 
 ## Accessibility
 ![Screen Shot 2021-09-21 at 4 42 43 PM](https://user-images.githubusercontent.com/76266623/134257274-c393940f-173b-499a-8bfd-64ff3575e476.png)
-
-[Deployed Link](https://spacestagram-challenge.surge.sh/)
