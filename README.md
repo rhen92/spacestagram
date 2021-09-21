@@ -1,7 +1,5 @@
 # Spacestagram
 
-[Deployed Link](https://spacestagram-challenge.surge.sh/)
-
 ## Developer
 <table>
     <tr>
@@ -22,6 +20,8 @@
 ## Overview
 
 A React application built using NASA APIs. Site features astronomy pictures of the day where you can like and dislike pictures shown.
+
+[Deployed Link](https://spacestagram-challenge.surge.sh/)
 
 ## Functionality
 ![Home Page](https://media.giphy.com/media/7b7WL9xqzXFS0bbJuJ/giphy.gif)
