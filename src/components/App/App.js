@@ -36,8 +36,8 @@ class App extends Component {
   render() {
     return (
       <main className='app'>
-      {!this.state.planetDetails.length && !this.state.error && <Loading />}
       <h1 className='title'>Spacestagram</h1>
+      {!this.state.planetDetails.length && !this.state.error && <Loading />}
       <Planets planetDetails={this.state.planetDetails} />
       </main>
     );
