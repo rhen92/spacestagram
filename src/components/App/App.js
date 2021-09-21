@@ -29,7 +29,7 @@ class App extends Component {
         this.setState({planetDetails: updatedPictures})
       })
       .catch(error => {
-        this.setState({error: 'Unable to get Astronomy Pictures of the Day try again later'})
+        this.setState({error: 'Unable to get Astronomy Pictures try again later'})
       })
   }
 
@@ -38,6 +38,7 @@ class App extends Component {
       <main className='app'>
       <h1 className='title'>Spacestagram</h1>
       {!this.state.planetDetails.length && !this.state.error && <Loading />}
+      {this.state.error && <h2>{this.state.error}</h2>}
       <Planets planetDetails={this.state.planetDetails} />
       </main>
     );
