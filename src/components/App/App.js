@@ -21,7 +21,7 @@ class App extends Component {
             'date': hit.date,
             'media': hit.media_type,
             'title': hit.title,
-            'image': hit.url
+            'url': hit.url
           }
           obj.push(planetInfo);
           return obj;

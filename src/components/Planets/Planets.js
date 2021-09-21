@@ -10,7 +10,7 @@ const Planets = ({ planetDetails }) => {
         date={planet.date}
         media={planet.media}
         title={planet.title}
-        image={planet.image}
+        url={planet.url}
       />
     )
   })
